@@ -36,6 +36,7 @@ while True:
 			else:
 				print("not match?")
 				print("== GAME OVER! ==")
+				break
 			print('\n')
 
 			# question 2
@@ -50,6 +51,7 @@ while True:
 			else:
 				print("not match?")
 				print("== GAME OVER! ==")
+				break
 			print('\n')
 
 			# question 3
@@ -64,6 +66,7 @@ while True:
 			else:
 				print("not match!")
 				print("== GAME OVER! ==")
+				break
 			print('\n')
 
 			# question 4
@@ -87,21 +90,6 @@ while True:
 			else:
 				print("incorrect!")
 			print('\n')
-
-			# score calculate
-			total = score / 10 
-			# info check
-			if total >= 10.0:
-				info = "excenlent *_*"
-			elif total >= 6.0:
-				info = "good score!"
-			else:
-				info = "bad score"
-
-			# finally index
-			print(name + ' get score ' + str(total) + '%')
-			print('== info : ' + info)
-			print('thanks for using my application!\n(c) 2020. jm-kodigu')
 			break 
 
 		elif ask.lower() in ['n','no']:
@@ -109,3 +97,18 @@ while True:
 			exit()
 		else:
 			print("not match!")
+
+# score calculate
+total = score / 10 
+# info check
+if total >= 10.0:
+	info = "excenlent *_*"
+elif total >= 6.0:
+	info = "good score!"
+else:
+	info = "bad score"
+
+# finally index
+print(name + ' get score ' + str(total) + '%')
+print('== info : ' + info)
+print('thanks for using my application!\n(c) 2020. jm-kodigu')
