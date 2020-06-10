@@ -5,6 +5,11 @@ print(phoned)
 # access
 print(phoned["luduvina"])
 
+# views all keys,values & all items use method
+print(phoned.keys())
+print(phoned.values())
+print(phoned.items())
+
 # add items
 phoned["alexandra"] = 79930182
 
