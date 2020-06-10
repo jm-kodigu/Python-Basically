@@ -1,0 +1,29 @@
+# basic usage
+
+* python -m pip install somepackage
+
+"""
+example :
+
+python -m pip install numpy 
+python -m pip install matplotlib
+python -m pip install pygame
+etc...
+
+"""
+
+# espesific version
+python -m pip install somepackage==1.7.2
+
+# minimum version
+python -m pip install "somepackage>=1.7.2"
+
+# update version
+python -m pip install --upgrade somepackage
+
+
+# uninstall
+python -m pip uninstall somepackage
+
+# show list module
+python -m pip list --format=columns
