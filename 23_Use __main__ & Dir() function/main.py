@@ -1,8 +1,6 @@
 from algo import *
 
-print(dir(algo))
-
-print(50*"=")
+# print(dir(algo))
 
 alphabets = ['C','A','D','E','B']
 
