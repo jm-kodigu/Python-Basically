@@ -12,6 +12,7 @@ class Button(ABC):
 		pass
 
 	@property
+	@abstractmethod
 	def link(self):
 		pass
 
